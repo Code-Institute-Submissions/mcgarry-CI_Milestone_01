@@ -1,62 +1,194 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="css/carousel.css" rel="stylesheet"> -->
 	
-    <title>Home</title>
+	<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Playfair+Display">
+	<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Homemade+Apple">
+	<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Raleway">
+	<style>
+	
+			p {
+				margin-top: 0;
+				margin-bottom: 2rem;
+			}
+			
+			.site-item-frame {
+				margin-left:5%;
+				width: 90%;
+				padding: 5% 5%;
+				border: 1px solid #BFBFBF;
+				background-color: white;
+			}		
+			.site-item-frame-img{
+				
+				width: 100%;
+			}
+			.heading-text {
+				font-size: 44px;
+				line-height: 1.2;
+				color: 
+				#0d1724;
+				font-family: Playfair Display, serif;
+				font-weight: 700;
+			}
+			.heading-text-sub {
+			    font-family: 'Homemade Apple';
+				font-weight: 400;
+				font-size: 24px;
+				color: #960702;
+				padding-top: 10px;
+				padding-bottom: 5px;
+			}
+			.text-sub {
+				color: #5a5a5a;
+				font-family: Raleway, serif;
+			}
+			.button {
+				cursor: pointer;
+				background-color: #960702;
+				border: none;
+				color: white;
+				padding: 14px 30px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				margin: 4px 2px;
+				font-family: 'Homemade Apple';
+				font-weight: 400;
+				font-size: 20px;
+				margin: 15px 20px;
+				width: 100%;
+			}
+			
+			.site-item-container {
+				
+			}
+			.site-item {
+				padding: 20px;
+			}
+			.site-item-divider {
+				
+			}
+			
+			/*  */
+			.show-hide-mobile {
+				display: inline-block;
+			}
+			.show-hide-desktop {
+				display: none;
+			}
+			
+			/* 768 */
+	</style>
+	
+	
   </head>
   <body>
-    
-	<!--/////////// Content Start ///////////-->
 
     <header>
-		<div class="row no-gutter"> <!-- menu -->
-			<div class="col-md-12">
-			
-			</div>
-		</div>
-		<div class="row no-gutter"> <!-- banner -->
-			<div class="col-md-12">
-				<img src="img/header-bk.jpg">
-			</div>
-		</div>
     </header>
-    <section>
-        <div class="row no-gutter"> <!-- skills heading -->
-			<div class="col-md-12">
+
+    <main role="main">
+
+    <div class="container site-item-container">
+    <!-- <div class="container marketing"> -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="site-item-divider">
+
+        <div class="row site-item">
+		
+			<div class="col-md-7">
+				<h2 class="heading-text"> 
+					Pearse Lyons Distillery
+				</h2>
+				<h4 class="heading-text-sub">
+					E-Commerce
+				</h4>
+				<p class="text">Pearse Lyons Distillery at St. James is a new chapter for The Liberties, Dublin. Family history, a personal passion for brewing and distilling, and an entrepreneurial spirit has inspired the restoration of St. James’ Church.</p>
+				<div class="show-hide-desktop">
+					<a href="https://www.pearselyonsdistillery.com/" target="_blank" class="button">Show Me</a>
+				</div>
+				
+			</div>
 			
+			<div class="col-md-5">
+				<div class="site-item-frame">
+					<a href="https://www.pearselyonsdistillery.com/" target="_blank">
+						<img src="img/ws-pld.png" alt="Pulpit rock" class="site-item-frame-img">
+					</a>
+				</div>
+				<div class="show-hide-mobile">
+					<a href="https://www.pearselyonsdistillery.com/" target="_blank" class="button">Show Me</a>
+				</div>
+				<!--
+				<img class="featurette-image img-fluid mx-auto" src="img/ws-pld-wb.png" alt="Generic placeholder image">
+				-->
 			</div>
-		</div>
-		<div class="row no-gutter"> <!-- skills content -->
-			<div class="col-md-4">
-				<h1>Header 1</h1>
-			</div>
-			<div class="col-md-4">
-				<h1>Header 2</h1>
-			</div>
-			<div class="col-md-4">
-				<h1>Header 3</h1>
-			</div>
-		</div>
-    </section>
-    <footer>
-    </footer>
+			
+        </div>
 
-    <!--/////////// Content End ///////////-->
+        <hr class="featurette-divider">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            
+			<!--<img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image"> -->
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/holder.min.js"></script>
+	
+	<!-- 
+	Div Frame - image wide white border and gradient shadow
+	ref: https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+	
+	Buttons - 
+	ref: https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_basic
+	-->
   </body>
 </html>
-
