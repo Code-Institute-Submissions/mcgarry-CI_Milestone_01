@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Playfair+Display:400,700|Raleway&display=swap');
+
 
 body {
 	padding-top: 3rem;
@@ -23,8 +25,7 @@ p {
 .heading-text {
 	font-size: 44px;
 	line-height: 1.2;
-	color: 
-	#0d1724;
+	color: #0d1724;
 	font-family: Playfair Display, serif;
 	font-weight: 700;
 }
