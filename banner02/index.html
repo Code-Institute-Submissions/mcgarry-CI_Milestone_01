@@ -1,0 +1,153 @@
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+		html, body{
+	margin:0;
+	padding:0;
+	height:100%;
+  }
+  body{
+	font-family: Conduit, Arial;
+  }
+  img{
+	border:none;
+  }
+  .clearfix{
+	clear:both;
+  }
+  
+  /* header */
+  #header{
+	width:100%;
+	height:60px;
+	position:fixed;
+	z-index:999;
+	background-color:white;
+  }
+  
+  .nav{
+	width:100%;
+	max-width:900px;
+	text-align:center;
+	margin:0 auto;
+	padding-top:21px;
+  }
+  .nav li{
+	display:inline-block;
+	margin:0 20px 0 20px;
+  }
+  .nav li a{
+	text-decoration:none;
+	color:black;
+  }
+  .nav li a:hover{
+	color:#ec6408;
+  }
+  #facebook{
+	position:absolute;
+	right:0;
+	top:0;
+	height:60px;
+	width:60px;
+	background-color:black;
+	color:white;
+	text-align:center;
+	line-height:60px;
+	font-weight:lighter;
+  }
+  #facebook:hover{
+	background-color:#221e1e;
+  }
+  #shop{
+	position:absolute;
+	right:60px;
+	top:0;
+	height:60px;
+	width:100px;
+	background-color:#ec6408;
+	text-align:center;
+	line-height:60px;
+	color:white;
+	font-weight:lighter;
+  }
+  #shop:hover{
+	background-color:#c85605;
+  }
+  
+  
+  
+  /* content */
+  #home{
+	height:100%;
+	width:100%;
+	background: url("http://upload.wikimedia.org/wikipedia/commons/c/c4/PM5544_with_non-PAL_signals.png");
+	  color:white;
+	  background-attachment:fixed;
+	  background-size:cover;
+  }
+  #spritzer{
+	background: transparent;
+	  background-attachment:fixed;
+	  background-size:cover;
+  }
+  #uberuns{
+	height:100%;
+	width:100%;
+	  background:rgba(255,255,255,.9);
+		  position:relative;
+  }
+  #uberuns:after {
+	  content:'';
+	  height:100%;
+	width:100%;
+	background: url("http://upload.wikimedia.org/wikipedia/commons/c/c4/PM5544_with_non-PAL_signals.png");
+	  position:absolute;    
+	  background-attachment:fixed;
+	  background-size:cover;
+	  left:0;
+	  top:0;
+	  z-index:-1;
+  }
+	</style>
+	
+    <title>Home</title>
+  </head>
+
+  <body>
+	<div id="header">
+	  <ul class="nav">
+		<li><a href="#">über uns</a></li>
+		<li><a href="#">produkte</a></li>
+		<li><a href="#">farben</a></li>
+		<li><a href="#">kontakt</a></li>
+	  </ul>
+	  <div id="shop">zum shop</div>
+	  <div id="facebook">f</div>
+	</div>
+  
+	<div class="section" id="home"><br><br><br><br></div>
+  
+	<div class="section" id="uberuns">THIS SHOULD BE ON A TRANSPARENT DIV</div>
+  
+  
+  </body>
+<!--
+Scrolling content with still background
+URL: https://stackoverflow.com/questions/28563479/scroll-transparent-div-over-div-with-background-image
+
+Burger Menu
+URL: https://getbootstrap.com/docs/4.4/components/navbar/#toggler
+URL: https://www.w3schools.com/howto/howto_css_menu_icon.asp
+
+-->
+</html>
+
