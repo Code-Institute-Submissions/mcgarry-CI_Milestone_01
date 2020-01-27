@@ -1,8 +1,6 @@
 # Code Inst. Milestone Project 01 - Personal Site built with Boostrap
 
 ## Synopsis
-## What is the purposes of the website
-
 The purpose of the website is present the skills I have learned in building a responsive, mobile-first website. It demonstrates how I used HTML and CSS to create a website that dynamically changes layout structure based on the current users screen size while retaining a positive UX design and aesthetic. 
 
 It’s second goal is to present information regarding me and my previous work to the public. To build on the promotional material online that represents me and my abilities to any prospective employer. It allows users to preview samples of my previous work and then direct them to live versions of working content. It allows users to connect to my github and linked-in profiles but also via a php mailer form.
