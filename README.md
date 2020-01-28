@@ -29,19 +29,18 @@ PHP - for the form mailler.
 
 ## Deployment
 
-Website was built using the Gitpod IDE and later the WebStorm IDE. An online Github.com repository was used but change to a   local GIT directory. Both used version control and then saved/uploaded to Github. Because the site used php it was deployed to a cpanel webserver and can be viewed at https://www.3rdcastle.com
+The website was built using the Gitpod IDE and later the WebStorm IDE. An online Github.com repository was used but change to a local GIT directory. Both used version control and then saved/uploaded to Github. Because the site uses php it was deployed to a cpanel webserver and can be viewed at https://www.3rdcastle.com
 
 ## Installation
 
-Copy the files to webserver. 
+Copy the site folder . 
 
 ## API Reference
 
 Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
 
 ## Tests
-
-Describe and show how to run the tests with code examples.
+All pages and functionality were testing using the chrome web developer tools with the following screen size layouts: Galaxy S5, Pixel2, Pixel2(XL), iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad,  iPad, and the following standard screen width 480, 600, 768, 992, and 1382px.
 
 ## Contributors
 
