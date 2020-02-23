@@ -29,7 +29,7 @@ PHP - for the form mailler.
 
 ## Deployment
 
-The website was built using the Gitpod IDE and later the WebStorm IDE. An online Github.com repository was used but change to a local GIT directory. Both used version control and then saved/uploaded to Github. Because the site will evenutally use php it was deployed to a cpanel webserver and can be viewed at https://www.3rdcastle.com/ci/
+The website was built using the Gitpod IDE and later the WebStorm IDE. An online Github.com repository was used but change to a local GIT directory. Both used version control and then saved/uploaded to Github. Because the site will evenutally use php it was deployed to a cpanel webserver and can be viewed at https://www.3rdcastle.com/CI/
 
 ## Installation
 
