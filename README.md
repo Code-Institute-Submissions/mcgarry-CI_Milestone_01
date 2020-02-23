@@ -44,6 +44,47 @@ All pages and functionality were testing using the chrome web developer tools wi
 
 ## Work based on other code
 
+All of the code is my own. Naturally I used frameworks such as Jquery and Bootstrap covered on the course. I also used fancybox for my popup form
+
+#References:
+
+	
+	Navbar:
+	Navbar Icon
+	URL: https://getbootstrap.com/docs/4.4/components/navbar/#toggler
+	URL: 	https://stackoverflow.com/questions/54417421/how-to-change-bootstrap-4-navbar-collapse-icon-with-custom-svg-image
+					
+	Menu Icons:	
+	Scale:
+	URL: https://stackoverflow.com/questions/28564793/changing-width-of-font-awesome-icons/28565030
+	Rotate:
+	URL: http://jsbin.com/fulocomu/1/edit?html,css,output
+	
+	CSS onClick effect
+	URL:https://stackoverflow.com/questions/13630229/can-i-have-an-onclick-effect-in-css/32721572
+			
+	Checked / unChecked
+	URL: https://stackoverflow.com/questions/8846075/css3-unchecked-pseudo-class
+
+	Div Frame - image wide white border and gradient shadow
+	ref: https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+	
+	Buttons - 
+	ref: https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_basic
+
+	Rollover Icon -
+	Ref: https://www.tutorialrepublic.com/faq/how-to-change-image-on-hover-with-css.php
+	
+	Popup Form -
+	Ref: https://fancyapps.com/fancybox/3/docs/#iframe
+
+	Scrolling content with still background
+	URL: https://stackoverflow.com/questions/28563479/scroll-transparent-div-over-div-with-background-image
+
+	Burger Menu
+	URL: https://getbootstrap.com/docs/4.4/components/navbar/#toggler
+	URL: https://www.w3schools.com/howto/howto_css_menu_icon.asp
+
 ## What changed after user design experience (UDX) phase
 I noticed that I had a big skillset that I was not listing. I made use of the home page to list both the software I've used and the software languages I can code and the ones I will be able to code when I'm finished the course.
 
