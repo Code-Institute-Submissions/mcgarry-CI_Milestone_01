@@ -42,11 +42,10 @@ Depending on the size of the project, if it is small and simple enough the refer
 ## Tests
 All pages and functionality were testing using the chrome web developer tools with the following screen size layouts: Galaxy S5, Pixel2, Pixel2(XL), iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad,  iPad, and the following standard screen width 480, 600, 768, 992, and 1382px.
 
-## Contributors
+## Work based on other code
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+## What changed after user design experience (UDX) phase
+I noticed that I had a big skillset that I was not listing. I made use of the home page to list both the software I've used and the software languages I can code and the ones I will be able to code when I'm finished the course.
 
-## License
 
-A short snippet describing the license (MIT, Apache, etc.)
 
