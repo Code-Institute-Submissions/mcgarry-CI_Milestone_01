@@ -36,13 +36,13 @@ p {
 	border: 0px none transparent;
 }
 .nav-link-active{
-    color: #1d2124;
+	color: #1d2124;
 }
 .nav-link-active:hover{
-    color: #960702;
+	color: #960702;
 }
 .nav-link-current{
-    color: #848484;
+	color: #848484;
 }
 
 #logo-nav-container {
@@ -118,9 +118,9 @@ p {
 	padding: 5% 5%;
 	border: 1px solid #BFBFBF;
 	background-color: white;
-}		
+}
 .site-item-frame-img{
-	
+
 	width: 100%;
 }
 .heading-text {
@@ -131,7 +131,7 @@ p {
 	font-weight: 700;
 }
 .heading-text-sub {
-    font-family: 'Homemade Apple', Arial, Helvetica, sans-serif;
+	font-family: 'Homemade Apple', Arial, Helvetica, sans-serif;
 	font-weight: 400;
 	font-size: 24px;
 	color: #960702;
@@ -188,7 +188,7 @@ button:focus {
 	z-index:999;
 	background-color:white;
 }
-  
+
 .nav{
 	width:100%;
 	max-width:900px;
@@ -208,37 +208,6 @@ button:focus {
 .nav li a:hover{
 	color:#960702;
 }
-#facebook{
-	position:absolute;
-	right:0;
-	top:0;
-	height:60px;
-	width:60px;
-	background-color:black;
-	color:white;
-	text-align:center;
-	line-height:60px;
-	font-weight:lighter;
-}
-#facebook:hover{
-	background-color:#221e1e;
-}
-#shop{
-	position:absolute;
-	right:60px;
-	top:0;
-	height:60px;
-	width:100px;
-	background-color:#ec6408;
-	text-align:center;
-	line-height:60px;
-	color:white;
-	font-weight:lighter;
-}
-#shop:hover{
-	background-color:#c85605;
-}
-  
 #banner{
 	height:100%;
 	width:100%;
@@ -247,21 +216,17 @@ button:focus {
 	background-attachment:fixed;
 	background-size:cover;
 }
-
 #banner-logo-mobile {
 	width: 50%;
 	padding-top: 120px;
 	display: block;
 }
-
 #banner-logo-desktop {
 	display: none;
 }
-
 .heading-padding{
 	padding-bottom: 0px;
 }
-
 .banner-text {
 	font-size: 50px;
 	line-height: 1.2;
@@ -271,33 +236,6 @@ button:focus {
 }
 /*----------------------- Main CSS --------------------*/
 
-.logo-icon {
-	cursor: pointer;
-	width: 90px;
-	height: 100%;
-	position: relative;
-	display:block;
-	margin:0 auto;
-	padding: 0px 0px 15px 0px;
-}
-.logo-icon .logo-img-col {
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 99;
-	width:90px;
-}
-.logo-icon .logo-img-bw {
-	width:90px;
-}
-
-.logo-icon:hover,
-.logo-img-col {
-	padding: 0px 0px 0px 0px;
-	width:90px;
-	display: inline;
-}
 .footer-icon-banner {
 	padding: 20px 40px 20px 40px;
 	margin-top: 50px;
@@ -377,7 +315,7 @@ button:focus {
 	color: #0d1724;
 }
 .form-horizontal {
-    width: 100%;
+	width: 100%;
 }
 /*----------------------- Desktop CSS --------------------*/
 
@@ -396,14 +334,42 @@ button:focus {
 .text-padding-top{
 	padding-top: 60px;
 }
- .container-fluid-padding{
-	        padding-top:60px;
-	        padding-left:60px;
-	        padding-right:60px;
-	    }
-	    .heading-text-padding{
-	        margin-bottom:40px;
-	    }
+.container-fluid-padding{
+	padding-top:60px;
+	padding-left:60px;
+	padding-right:60px;
+}
+.heading-text-padding{
+	margin-bottom:40px;
+}
+/* -------------------------- Client List ---------------------------- */
+.logo-icon {
+	cursor: pointer;
+	width: 90px;
+	height: 100%;
+	position: relative;
+	display: inline-block;
+	margin:0 auto;
+	padding: 0px 0px 15px 0px;
+}
+.logo-icon .logo-img-col {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	width:90px;
+}
+.logo-icon .logo-img-bw {
+	width:90px;
+}
+
+.logo-icon:hover
+.logo-img-col {
+	width:90px;
+	display: inline;
+}
+/* -------------------------- Media Query ---------------------------- */
 @media (min-width: 576px) {
 	#banner-logo-desktop {
 		width: 50%;
