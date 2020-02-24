@@ -96,6 +96,7 @@ p {
 	margin: 0px;
 	color: #1d2124;
 }
+
 .bg-light{
 	background-color: #fff;
 }
@@ -341,6 +342,70 @@ button:focus {
 }
 .heading-text-padding{
 	margin-bottom:40px;
+}
+/* ------------------------------------------------------------- */
+.navbar-toggler {
+	padding: 0px,0px;
+	font-size: 1.25rem;
+	line-height: 1;
+	background-color: transparent;
+	border: 0px none transparent;
+	border-radius: 0rem;
+}
+.navbar-toggler:active .navbar-toggler:hover {
+	border: 0px none transparent;
+}
+.navbar-toggler.collapsed {
+	border: 0px none transparent;
+}
+
+#logo-nav-container {
+	position: fixed;
+	top: 10px;
+	right: 40px;
+	width: 45px;
+	/* border: 1px solid #73AD21; */
+}
+#logo-nav {
+	width: 45px;
+}
+button:focus {
+	outline: none;
+}
+#navbar-menu-accordian-toggle {
+	border: 0px none transparent;
+	display: none;
+}
+
+#navbar-menu-accordian-toggle:checked + label > i {
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+	transition-delay: .0s;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	transition-property: transform;
+	outline: 0;
+	-webkit-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+#navbar-menu-accordian-toggle:not(:checked) + label > i {
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+	transition-delay: .0s;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	transition-property: transform;
+	outline: 0;
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
 }
 /* -------------------------- Client List ---------------------------- */
 .logo-icon {
