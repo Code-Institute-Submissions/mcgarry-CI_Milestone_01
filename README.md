@@ -33,7 +33,9 @@ The website was built using the Gitpod IDE and later the WebStorm IDE. An online
 
 ## Installation
 
-Copy the site folder. 
+Using the clone link above run this command in the directory you wish to copy the site to.  
+Inside a command terminal use: 
+$: git clone https://github.com/mcgarry/CI_Milestone_01.git 
 
 ## API Reference
 
