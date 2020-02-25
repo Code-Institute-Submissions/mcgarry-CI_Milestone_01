@@ -208,5 +208,3 @@ All of the code is my own. Naturally I used frameworks such as JQuery and Bootst
 	URL: https://getbootstrap.com/docs/4.4/components/navbar/#toggler
 	URL: https://www.w3schools.com/howto/howto_css_menu_icon.asp
 
-## What changed after user design experience (UDX) phase
-I noticed that I had a big skillset that I was not listing. I made use of the home page to list both the software I've used and the software languages I can code and the ones I will be able to code when I'm finished the course.
