@@ -44,6 +44,9 @@ Depending on the size of the project, if it is small and simple enough the refer
 ## Tests
 All pages and functionality were testing using the chrome web developer tools with the following screen size layouts: Galaxy S5, Pixel2, Pixel2(XL), iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad,  iPad, and the following standard screen width 480, 600, 768, 992, and 1382px.
 
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.3rdcastle.com%2FCI%2F
+Errors still states that inputs and labels must not appear as a descendant of a button, but this allows me to perform an animation of a font awesome icon on click using only css.
+
 ## Work based on other code
 
 All of the code is my own. Naturally I used frameworks such as Jquery and Bootstrap covered on the course. I also used fancybox for my popup form
