@@ -476,3 +476,37 @@ button:focus {
 		padding-top: 140px;
 	}
 }
+@media only screen and (min-width: 2160px) {
+	.container {
+		max-width: 1600px;
+	}
+	.heading-text {
+		font-size: 70px;
+	}
+	.heading-text-sub{
+		font-size: 40px;
+	}
+	p{
+		font-size: 30px;
+	}
+	.button{
+		font-size: 30px;
+	}
+}
+@media only screen and (min-width: 2900px) {
+	.container {
+		max-width: 2200px;
+	}
+	.heading-text {
+		font-size: 100px;
+	}
+	.heading-text-sub{
+		font-size: 70px;
+	}
+	p{
+		font-size: 45px;
+	}
+	.button{
+		font-size: 45px;
+	}
+}
