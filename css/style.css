@@ -19,7 +19,7 @@ p {
 	color: #5a5a5a;
 }
 
-/*----------------------- Navbar CSS --------------------*/
+/*----------------------- Navbar CSS --------------------
 
 .navbar-toggler {
 	padding: 0px;
@@ -34,7 +34,7 @@ p {
 }
 .navbar-toggler.collapsed {
 	border: 0px none transparent;
-}
+}*/
 .nav-link-active{
 	color: #1d2124;
 }
@@ -345,7 +345,7 @@ button:focus {
 }
 /* ------------------------------------------------------------- */
 .navbar-toggler {
-	padding: 0px,0px;
+	padding: 0px;
 	font-size: 1.25rem;
 	line-height: 1;
 	background-color: transparent;
