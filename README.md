@@ -92,27 +92,17 @@ The footer consists of a banner and some ways to contact me directly. The footer
 
 ## Technologies Used 
 
-HTML5 
+* HTML5 
+* CSS3 
+* Bootstrap 
+* GIT 
+* GITHUB 
+* Google Chrome developer tools 
+* Gitpod IDE 
+* WebStorm IDE 
+* Javascript and JQuery are used by bootstrap 
+* Javascript for fancybox email confirmation on contact form 
 
-CSS3 
-
-Bootstrap 
-
-GIT 
-
-GITHUB 
-
-Google Chrome developer tools 
-
-Gitpod IDE 
-
-WebStorm IDE 
-
-Javascript and JQuery are used by bootstrap 
-
-Javascript for fancybox email confirmation on contact form 
-
-PHP - for the form mailler. 
 
  
 
