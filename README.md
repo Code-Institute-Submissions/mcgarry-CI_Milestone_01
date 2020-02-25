@@ -110,7 +110,7 @@ The footer consists of a banner and some ways to contact me directly. The footer
 
  
 
-The website was built using the Gitpod IDE and later the WebStorm IDE. An online Github.com repository was used but change to a local GIT directory. Both used version control and then saved/uploaded to Github. Because the site will evenutally use php it was deployed to a cpanel webserver and can be viewed at https://www.3rdcastle.com/CI/ 
+The website was built using the Gitpod IDE and later the WebStorm IDE. An online Github.com repository was used but change to a local GIT directory. Both used version control and then saved/uploaded to Github. Because the site will evenutally use php it was deployed to a cpanel webserver and can be viewed at https://www.3rdcastle.com/ci/ 
 
  
 
@@ -142,7 +142,7 @@ The css file was validated using: https://jigsaw.w3.org/css-validator/
 
 The following url highlights two errors that remain. 
 
-https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.3rdcastle.com%2FCI%2F 
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.3rdcastle.com%2Fci%2F 
 
 The errors still state that inputs and labels must not appear as a descendant of a button, but these errors assume that the form elements are being used to record information within a form. Actually, this nesting of tags allows the code to perform an animation of a font awesome icon on click/touch using only CSS and is a consequence of using only CSS to perform animations without an triggerable event.  
 
