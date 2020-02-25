@@ -17,36 +17,22 @@ It’s second goal is to present information regarding me and my previous work t
 There are 5 main goals of the website: 
 
 1. Create a valuable online presence 
-
 2. Promote skills in a positive light   
-
 3. Increase public awareness of abilities  
-
 4. Increase requests for a copy of CV 
-
 5. Connect with Github & Linked-in 
 
  
 
 ### Scope 
 
-This section determines what the users should be able to do on the website. 
+This section determines what the users should be able to do on the website:
 
-Organised list of technologies and how competent I am with them on the Home page. 
-
-Demonstrate finished examples of work. 
-
-Demonstrate finished examples of work and link to Github code examples. 
-
-Users can use "Request CV" button to make direct contact. 
-
-Users can use contact page to make direct contact. 
-
- 
-
- 
-
- 
+1. Organised list of technologies and how competent I am with them on the Home page. 
+2. Demonstrate finished examples of work. 
+3. Demonstrate finished examples of work and link to Github code examples. 
+4. Users can use "Request CV" button to make direct contact. 
+5. Users can use contact page to make direct contact. 
 
  
 
