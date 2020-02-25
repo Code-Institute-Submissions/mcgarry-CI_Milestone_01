@@ -16,15 +16,15 @@ It’s second goal is to present information regarding me and my previous work t
 
 There are 5 main goals of the website: 
 
-    Create a valuable online presence 
+1. Create a valuable online presence 
 
-    Promote skills in a positive light   
+2. Promote skills in a positive light   
 
-    Increase public awareness of abilities  
+3. Increase public awareness of abilities  
 
-    Increase requests for a copy of CV 
+4. Increase requests for a copy of CV 
 
-    Connect with Github & Linked-in 
+5. Connect with Github & Linked-in 
 
  
 
@@ -32,15 +32,15 @@ There are 5 main goals of the website:
 
 This section determines what the users should be able to do on the website. 
 
-    Organised list of technologies and how competent I am with them on the Home page. 
+Organised list of technologies and how competent I am with them on the Home page. 
 
-    Demonstrate finished examples of work. 
+Demonstrate finished examples of work. 
 
-    Demonstrate finished examples of work and link to Github code examples. 
+Demonstrate finished examples of work and link to Github code examples. 
 
-    Users can use "Request CV" button to make direct contact. 
+Users can use "Request CV" button to make direct contact. 
 
-    Users can use contact page to make direct contact. 
+Users can use contact page to make direct contact. 
 
  
 
@@ -62,7 +62,7 @@ I proposed four pages. A home page detailing my skill both software and language
 
 I started using https://www.draw.io to work up wireframes of the website. However, I found it very limited and moved to http://www.mocqups.com which provided extra functionality. Especially the ability to create click/touch areas that allow users to prototype interaction and navigation. If viewed using Adobe Acrobat or directly in a chrome browser the interface simulates interaction and navigation for better prototyping. Sadly, this functionality is void when viewed via the GitHub repository. 
 
-Full Site Mobile & Desktop wireframe 
+[Full Site Mobile & Desktop wireframe ](https://github.com/mcgarry/CI_Milestone_01/blob/master/UX/04-skeleton/04-skeleton.pdf)
 
  
 
